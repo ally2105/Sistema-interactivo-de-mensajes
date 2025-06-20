@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/fondo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+header {
+    
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #37589e;
+    color: white;
+    padding: 10px;
+}
+
+header img {
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #cccccc;
+}
+
+.banner {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.banner img {
+    border-radius: 20px;
+    width: 70%;
+    max-width: 900px;
+    height: auto;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+#about-us,
+#requirements {
+    color: white;
+    background-color: #6593ff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 40%;
+    min-width: 280px;
+    text-align: center;
+}
+
+.container {
+    margin: 40px auto;
+    background-color: #6593ff;
+    color: white;
+    width: 30%;
+    min-width: 280px;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container label,
+.container input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.container input {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.container button {
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 99, 99);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: rgb(201, 201, 201);
+    color: black;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: #37589e;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .banner img {
+        width: 90%;
+    }
+
+    .container1 {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    #about-us,
+    #horario {
+        width: 80%;
+    }
+
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .banner img {
+        width: 85%;
+    }
+
+    .container1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    #about-us,
+    #horario {
+        width: 70%;
+    }
+
+    .container {
+        width: 60%;
+    }
+}
