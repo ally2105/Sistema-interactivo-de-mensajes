@@ -1,13 +1,14 @@
-# 📬 Sistema Interactivo de Mensajes
+# 📬 Interactive Message System
 
-Este es un sistema web que valida el nombre y la edad de un usuario. La aplicación determina si la persona es apta para matricularse y realizar cursos de programación.
+This is a web-based system that validates a user's name and age. The application determines if the user is eligible to enroll and take programming courses.
 
-## 🌐 Descripción
+## 🌐 Description
 
-El sistema solicita al usuario que ingrese su **nombre** y **edad**. Basándose en la edad, le muestra un mensaje indicando si está calificado para participar en cursos de programación. El diseño es completamente responsive y apto para diferentes dispositivos.
+The system prompts the user to enter their **name** and **age**. Based on their age, it displays a message indicating whether they are qualified to participate in programming courses. The design is fully responsive and suitable for different devices.
 
-## ⚙️ Tecnologías utilizadas
+## ⚙️ Technologies Used
 
-- HTML
-- CSS
+-HTML
+-CSS
 - JavaScript
+
