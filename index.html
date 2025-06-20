@@ -2,26 +2,43 @@
 <html lang="en">
 
 <head>
+    <!-- Sets character encoding and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aqui encontraras inscripciones para el curso de programacion">
+    <meta name="keywords" content="nuevo, desarrollo, programacion,web,inscriptions,lenguajes de programacion">
+    <meta name="author" content="Allison Pauleth Segrera Pardo">
+    <meta name="designer" content="Allison Pauleth Segrera Pardo">
+    <meta name="copyright" content=" 2026 allypau2105. Todos los derechos reservados">
+    <meta name="sitedomain" content="https://aprendeaprogramar">
+    <meta name="theme color" content="#ffffff">
+
+    <!-- Page title and external CSS -->
     <title>Inscripciones</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <div class="logo"><img src=".//img/TRAINING EXCELLENT.webp" alt="Logo" id="logo"></div>
+        <!-- Logo and Navigation Menu -->
+        <div class="logo">
+            <img src=".//img/TRAINING EXCELLENT.webp" alt="Logo" id="logo">
+        </div>
         <ul>
             <li><a href="#about-us">About us</a></li>
-            <li><a href="#horario">Business Hours</a></li>
+            <li><a href="#horario">Business Hours</a></li> <!-- Note: Section with id "horario" not found -->
             <li><a href="#inscriptions">Enroll</a></li>
             <li><a href="#requirements">Requirements</a></li>
         </ul>
     </header>
+
+    <!-- Banner image section -->
     <section class="banner">
         <img src="./img/baner.webp" alt="">
     </section>
+
     <article class="container1">
+        <!-- About Us section -->
         <section id="about-us">
             <h2>ABOUT US</h2>
             <p>
@@ -29,9 +46,11 @@
                 technology. Our mission is to make programming easy, fun, and accessible to everyone — regardless of
                 experience, and exclusively for people over 18 years old. Led by Allison Pauleth, a creative and
                 inspiringdeveloper, we work to guide you step by step on your learning journey.Join us and be part of
-                a community that turns curiosity into code!
+                a community that turns curiosity into code!<!-- Good introduction to your program -->
             </p>
         </section>
+
+        <!-- Requirements and how to enroll -->
         <section id="requirements">
             <h2>REQUIREMENTS & ENROLLMENT</h2>
             <p>To enroll in our programming courses, you must be 18 years or older and have basic computer skills.No
@@ -39,25 +58,36 @@
                 The enrollment process is simple: fill out the registration form, choose your course, and make your
                 payment
                 through our secure platform. Once completed, you will receive a confirmation email with access to your
-                course materials. Join us and take the first step toward your future in tech!
+                course materials. Join us and take the first step toward your future in
+                tech!<!-- Clear, simple instructions -->
             </p>
         </section>
     </article>
+
     <main>
+        <!-- Enrollment form section -->
         <section class="container" id="inscriptions">
             <h1>Inscriptions</h1>
-            <br>
+
+            <!-- Input fields for user data -->
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"><br><br><br>
+
             <label for="age">Age:</label>
             <input type="number" id="age" name="age"><br><br><br>
+
+            <!-- Button triggers JavaScript for validation or submission -->
             <button id="btnExecute">Inscribir</button>
-            <p id="mesagge"></p>
+            <p id="mesagge"></p> <!-- Likely used to show confirmation or error -->
         </section>
     </main>
+
+    <!-- Footer with author credits -->
     <footer>
         <p>© 2023-2025, Allison Segrera Pardo. All rights reserved.</p>
     </footer>
+
+    <!-- External JavaScript file -->
     <script src="javascript.js"></script>
 </body>
 
